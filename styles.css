@@ -11,6 +11,13 @@ header {
     text-align: center;
     padding: 1rem 0;
 }
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
 section {
     display: flex;
     flex-wrap: wrap;
