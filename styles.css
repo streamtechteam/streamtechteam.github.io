@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,6 +23,11 @@ article {
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+article:hover {
+    transform: scale(1.05);
 }
 h2 {
     color: #333;
@@ -30,5 +36,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-   /* padding: 1rem 0;*/
+    padding: 1rem 0;
 }
