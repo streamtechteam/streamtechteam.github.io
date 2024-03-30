@@ -1,15 +1,20 @@
-
 body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
     src: format('ttf') url('https://github.com/streamtechteam/StreamTechRepo/raw/main/fonts/vazir/Vazir.ttf');
     font-family: Vazir, sans-serif;
     margin: 0;
     padding: 0;
 }
+#main{
+	flex: 1;
+}
 header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0rem 0;
 }
 #projects {
     display: flex;
@@ -38,10 +43,17 @@ article {
 article:hover {
     transform: scale(1.05);
 }
+#projects article {
+}
+#projects article {
+}
+
+
 h2 {
     color: #333;
 }
 footer {
+	margin-top: 20;
     background-color: #333;
     color: white;
     text-align: center;
