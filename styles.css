@@ -26,6 +26,7 @@ section {
     padding: 2rem;
 }
 article {
+    height: 110px;
     background-color: #f4f4f4;
     border-radius: 5px;
     padding: 1rem;
