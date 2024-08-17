@@ -12,7 +12,6 @@
 body {
     direction: rtl;
     font-family: 'vazir';
-    src: url();
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
