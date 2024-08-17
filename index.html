@@ -1,50 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>StreamTech</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamTech</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/pictures/favicon.ico">
 </head>
 
 <body>
-    
-<div id="main">
   <header>
-        <img src="logo for aparat.png"
-            alt="Logo" style="width: 100px; height: auto;">
-  <h1>StreamTech</h1>
-</header>
-  <h1 style="text-align: center">: پروژه ها</h1>
-  <section class="p" id="projects">
-    <article onclick="location.href='../whatsmyip'">
-      <h2>WhatsMyIp?</h2>
-      <p>این سایت به شما آی پی و اطلاعات شبکه رو نشون میده</p>
-    </article>
-    <article onclick="location.href='../whattimeisit'">
-      <h2>WhatTimeIsIt?</h2>
-      <p>این سایت به شما ساعت و تاریخ شمسی رو نشون میده</p>
-    </article>
-    <article onclick="location.href='https://github.com/streamtechteam/Streamtech_Notepad/releases/tag/v1.3'">
-      <h2>StreamTech NotePad</h2>
-      <p>این برنامه به شما امکان ویرایش متن رو میده</p>
-    </article>
-  </section>
-  <h1 style="text-align: center">: رفتن به سایت اصلی</h1>
-  <section>
-    <article onclick="location.href='../'" aria-disabled="true">
-      <h2>Go To StreamTech WebSite</h2>
-      <p>این لینک شمارو به سایت اصلی استریم تک میبره</p>
-    </article>
-  </section>
-  <script src="script.js"></script> 
-</div>
-<div>
-  <footer>
-    <p>&copy; ساخته شده با ❤️ توسط استریم تک</p>
-  </footer>
-</div>
+    <div class="container">
+      <h1>Taha Moosavi (StreamTech)</h1>
+      <p>برنامه نویس وب | برنامه نویس سی شارپ | مهندس نرم افزار</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        سلام! من سید طاها موسوی هستم و حدود 4 سال میشه که حرفه ای برنامه نویسی کار میکنم
+        و برنامه نویسی رو با C# شروع کردم.
+        شما میتونید پروژه ها و مهارت های من رو در بخش های پایینی
+        ببینید.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>C#</li>
+        <li>WinForm</li>
+        <li>WPF</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: StreamTech Notepad</h3>
+        <p>یک نوت پد ساخته شده با Windows Form که تمام امکانات یک نوت پد ساده را داراست و به زودی در ورژن جدید تر آن قابلیت های تخصصی تر اضافه میشود</p>
+      </div>
+      <div class="project">
+        <h3>Project 2: WhatsMyIp?</h3>
+        <p>یک سایت با ظاهر زیبا و مدرن که به شما اطلاعات شبکه رو نشون میده</p>
+      </div>
+      <div class="project">
+        <h3>Project 3: WhatTimeIsIt?</h3>
+        <p>این سایت با رابط زیبا زمان و تاریخ شمسی رو نشون میده</p>
+      </div>
+      <div class="project">
+        <h3>Project 4: Goal Tracker</h3>
+        <p>این سایت به شما کمک میکنه که اهداف تون رو ذخیره کنید و هیچ وقت از مسیرتون خارج نشید</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:taha.moosavi.taha@gmail.com">taha.moosavi.taha@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tahamoosavi" target="_blank">linkedin.com/in/tahamoosavi</a>
+        </p>
+        <p>GitHub: <a href="https://github.com/streamtechteam" target="_blank">github.com/streamtechteam</a></p>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
