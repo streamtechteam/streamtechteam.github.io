@@ -26,6 +26,10 @@ header {
     text-align: center;
     padding: 60px 0;
 }
+p{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
 h1 {
     margin: 0;
     font-size: 3em;
@@ -39,7 +43,10 @@ h2 {
     margin-bottom: 20px;
 }
 h3{
+
     direction:ltr;
+    margin-bottom: 18.72px;
+    margin-top: 18.72px;
 }
 h3 a{
     color: var(--text-color);
