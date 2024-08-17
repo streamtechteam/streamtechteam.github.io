@@ -19,14 +19,8 @@ body {
     margin: 0;
     padding: 0;
 }
-h3{
-    direction:ltr;
-}
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
+
 header {
   /*  background-color: var(--primary-color);
    color: white;*/
@@ -45,12 +39,24 @@ h2 {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+h3{
+    direction:ltr;
+}
+h3 a{
+    color: var(--text-color);
+    text-decoration: none;
+}
 section {
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     margin-bottom: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .skills-list {
     direction: ltr;
