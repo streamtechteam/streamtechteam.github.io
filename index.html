@@ -1,77 +1,224 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StreamTech</title>
+  <title>Taha Moosavi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/styles/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/pictures/favicon.ico">
-</head>
+
+  </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1>Taha Moosavi (StreamTech)</h1>
-      <p>برنامه نویس وب | برنامه نویس سی شارپ | مهندس نرم افزار</p>
+
+  <div class="sheet" id="sheet">
+
+    <!-- ================= HEADER ================= -->
+
+
+    <div class="header-wrapper">
+      <div id="photo_frame">
+        <div class="photo-wrap"><img id="photoImg" src="" alt="Profile photo"></div>
+      </div>
+
+      <header class="header">
+        <div class="header-top">
+
+        </div>
+        <div class="id-row">
+          <div class="id-name-en">
+            <h1 id="fullNameEn"></h1>
+            <p class="role" id="roleEn"></p>
+          </div>
+          <div class="id-name-fa fa">
+            <h1 id="fullNameFa"></h1>
+            <p class="role" id="roleFa"></p>
+          </div>
+        </div>
+        <div class="contact-row" id="contactRow"></div>
+      </header>
     </div>
-  </header>
+    <!-- ================= PHOTO FRAME ================= -->
 
-  <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        سلام! من سید طاها موسوی هستم و حدود 4 سال میشه که حرفه ای برنامه نویسی کار میکنم
-        و برنامه نویسی رو با C# شروع کردم.
-        شما میتونید پروژه ها و مهارت های من رو در بخش های پایینی
-        ببینید.
-      </p>
-    </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>C#</li>
-        <li>WinForm</li>
-        <li>WPF</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Python</li>
-      </ul>
-    </section>
+    <!-- ================= MAIN ================= -->
+    <main class="main">
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3><a href="https://github.com/streamtechteam/Streamtech_Notepad">Project 1: StreamTech Notepad</a></h3>
-        <p>یک نوت پد ساخته شده با Windows Form که تمام امکانات یک نوت پد ساده را داراست و به زودی در ورژن جدید تر آن قابلیت های تخصصی تر اضافه میشود</p>
-      </div>
-      <div class="project">
-        <h3><a href="./whatsmyip">Project 2: WhatsMyIp?</a></h3>
-        <p>یک سایت با ظاهر زیبا و مدرن که به شما اطلاعات شبکه رو نشون میده</p>
-      </div>
-      <div class="project">
-        <h3><a href="./whattimeisit">Project 3: WhatTimeIsIt?</a></h3>
-        <p>این سایت با رابط زیبا زمان و تاریخ شمسی رو نشون میده</p>
-      </div>
-      <div class="project">
-        <h3><a href="./goaltracker">Project 4: Goal Tracker</a></h3>
-        <p>این سایت به شما کمک میکنه که اهداف تون رو ذخیره کنید و هیچ وقت از مسیرتون خارج نشید</p>
-      </div>
-    </section>
+      <!-- ABOUT -->
+      <section class="section">
+        <div class="sec-head">
+          <div class="sec-head-left">
+            <div class="sec-icon" id="icAboutEn"></div>
+            <div class="sec-title-en">About Me</div>
+          </div>
+          <div class="sec-head-right">
+            <div class="sec-title-fa fa">درباره من</div>
+            <div class="sec-icon" id="icAboutFa"></div>
+          </div>
+        </div>
+        <div class="cols">
+          <p class="about-text" id="aboutEn"></p>
+          <p class="about-text fa col-fa" id="aboutFa"></p>
+        </div>
+      </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="contact-info">
-        <p>Email: <a href="mailto:taha.moosavi.taha@gmail.com">taha.moosavi.taha@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/tahamoosavi" target="_blank">linkedin.com/in/tahamoosavi</a>
-        </p>
-        <p>GitHub: <a href="https://github.com/streamtechteam" target="_blank">github.com/streamtechteam</a></p>
+      <!-- EXPERIENCE -->
+      <section class="section">
+        <div class="sec-head">
+          <div class="sec-head-left">
+            <div class="sec-icon" id="icExpEn"></div>
+            <div class="sec-title-en">Experience</div>
+          </div>
+          <div class="sec-head-right">
+            <div class="sec-title-fa fa">تجربیات کاری</div>
+            <div class="sec-icon" id="icExpFa"></div>
+          </div>
+        </div>
+        <div class="cols">
+          <div id="expEn"></div>
+          <div class="fa col-fa" id="expFa"></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section">
+        <div class="sec-head">
+          <div class="sec-head-left">
+            <div class="sec-icon" id="icProjEn"></div>
+            <div class="sec-title-en">Projects</div>
+          </div>
+          <div class="sec-head-right">
+            <div class="sec-title-fa fa">پروژه‌ها</div>
+            <div class="sec-icon" id="icProjFa"></div>
+          </div>
+        </div>
+        <div class="cols">
+          <div id="projEn"></div>
+          <div class="fa " id="projFa"></div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section">
+        <div class="sec-head">
+          <div class="sec-head-left">
+            <div class="sec-icon" id="icEduEn"></div>
+            <div class="sec-title-en">Education</div>
+          </div>
+          <div class="sec-head-right">
+            <div class="sec-title-fa fa">تحصیلات</div>
+            <div class="sec-icon" id="icEduFa"></div>
+          </div>
+        </div>
+        <div class="cols">
+          <div id="eduEn"></div>
+          <div class="fa col-fa" id="eduFa"></div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section class="section">
+        <div class="sec-head">
+          <div class="sec-head-left">
+            <div class="sec-icon" id="icCertEn"></div>
+            <div class="sec-title-en">Certificates</div>
+          </div>
+          <div class="sec-head-right">
+            <div class="sec-title-fa fa">گواهینامه‌ها</div>
+            <div class="sec-icon" id="icCertFa"></div>
+          </div>
+        </div>
+        <div class="cols">
+          <ul class="cert-list" id="certEn"></ul>
+          <ul class="cert-list fa col-fa" id="certFa"></ul>
+        </div>
+      </section>
+
+      <!-- FOOTER BAR -->
+      <div class="footer-bar">
+        <div class="foot-block">
+          <div class="foot-icon" id="icInterestsEn"></div>
+          <div>
+            <div class="foot-title">Interests</div>
+            <div class="foot-text" id="interestsEn"></div>
+          </div>
+        </div>
+        <div class="foot-block col-fa">
+          <div class="foot-icon" id="icInterestsFa"></div>
+          <div>
+            <div class="foot-title-fa fa">علاقه‌مندی‌ها</div>
+            <div class="foot-text fa" id="interestsFa"></div>
+          </div>
+        </div>
+        <div class="foot-block">
+          <div class="foot-icon" id="icTraitsEn"></div>
+          <div>
+            <div class="foot-title">Personal Traits</div>
+            <div class="foot-text" id="traitsEn"></div>
+          </div>
+        </div>
+        <div class="foot-block col-fa">
+          <div class="foot-icon" id="icTraitsFa"></div>
+          <div>
+            <div class="foot-title-fa fa">ویژگی‌های شخصی</div>
+            <div class="foot-text fa" id="traitsFa"></div>
+          </div>
+        </div>
       </div>
-    </section>
+    </main>
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+
+      <div class="side-card">
+        <div class="side-head">
+          <div class="side-icon" id="icContactEn"></div>
+          <div class="side-title">Contact Information</div>
+          <div class="side-title fa">اطلاعات تماس</div>
+        </div>
+        <div id="sideContactEn"></div>
+      </div>
+
+      <div class="side-card">
+        <div class="side-head">
+          <div class="side-icon" id="icSkillsEn"></div>
+          <div class="side-title">Skills</div>
+          /
+          <div class="side-title fa">مهارت ها</div>
+
+        </div>
+        <div id="skillsEn"></div>
+      </div>
+      <!-- <div class="side-card fa">
+        <div class="side-head">
+          <div class="side-icon" id="icSkillsFa"></div>
+          <div class="side-title fa">مهارت‌ها</div>
+        </div>
+        <div id="skillsFa"></div>
+      </div>
+       -->
+
+      <div class="side-card">
+        <div class="side-head">
+          <div class="side-icon" id="icLangEn"></div>
+          <div class="side-title">Languages</div>
+          /
+          <div class="side-title fa">زبان ها</div>
+        </div>
+        <div id="langsEn"></div>
+      </div>
+
+    </aside>
+
   </div>
+
+  <script src="src/scripts/script.js">
+
+  </script>
 </body>
 
 </html>
